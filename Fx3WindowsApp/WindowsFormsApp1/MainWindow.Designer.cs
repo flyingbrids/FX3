@@ -43,9 +43,6 @@ namespace ImagerDebugSoftware
             this.imageProcessingSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageSensorSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.peripheralSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.main_propertyGrid = new System.Windows.Forms.PropertyGrid();
             this.runningLogBox = new System.Windows.Forms.TextBox();
             this.panel_down_right = new System.Windows.Forms.Panel();
@@ -72,8 +69,7 @@ namespace ImagerDebugSoftware
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.toolsToolStripMenuItem,
-            this.settingsToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -180,29 +176,6 @@ namespace ImagerDebugSoftware
             this.peripheralSettingsToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
             this.peripheralSettingsToolStripMenuItem.Text = "Peripheral Settings";
             this.peripheralSettingsToolStripMenuItem.Click += new System.EventHandler(this.peripheralSettingsToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contentToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // contentToolStripMenuItem
-            // 
-            this.contentToolStripMenuItem.Name = "contentToolStripMenuItem";
-            this.contentToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.contentToolStripMenuItem.Text = "Content";
-            this.contentToolStripMenuItem.Click += new System.EventHandler(this.contentToolStripMenuItem_Click);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // main_propertyGrid
             // 
@@ -399,7 +372,6 @@ namespace ImagerDebugSoftware
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.PropertyGrid main_propertyGrid;
         private System.Windows.Forms.ToolStripMenuItem downloadFX3FirmwareToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem initializeImageSensorToolStripMenuItem;
@@ -408,8 +380,6 @@ namespace ImagerDebugSoftware
         private System.Windows.Forms.ToolStripMenuItem imageProcessingSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem imageSensorSettingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem peripheralSettingsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contentToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panel_down_right;
         private System.Windows.Forms.Panel panel_left;
         private System.Windows.Forms.Panel panel2;
